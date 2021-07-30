@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
+# manage
 
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project_2539644.settings')
