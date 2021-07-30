@@ -1,6 +1,18 @@
 
 import os
+<<<<<<< HEAD
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project_2539644.settings')
+=======
+<<<<<<< HEAD
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project_2539644.settings')
+=======
+<<<<<<< HEAD
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_exercise.settings')
+=======
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project_exercise.settings')
+>>>>>>> 2ae7d5a75d338512e46e2b14b596682f1f097704
+>>>>>>> d5ce4d19dbaca42306851f15ac469f0ce0346143
+>>>>>>> 5a1af3180eaac20e2f0dd7e254270ecd07a3db7d
 
 
 import django
@@ -45,9 +57,24 @@ def populate():
         for p in Page.objects.filter(category=c):
             print(f'- {c}: {p}')
 
+<<<<<<< HEAD
 # Use get_or_create() method to check multiple data
 # If yes, return ref of that model
 # If no, create it
+=======
+<<<<<<< HEAD
+# Use get_or_create() method to check multiple data
+# If yes, return ref of that model
+# If no, create it
+=======
+<<<<<<< HEAD
+# Use get_or_create() method to check multiple data
+# If yes, return ref of that model
+# If no, create it
+=======
+>>>>>>> 2ae7d5a75d338512e46e2b14b596682f1f097704
+>>>>>>> d5ce4d19dbaca42306851f15ac469f0ce0346143
+>>>>>>> 5a1af3180eaac20e2f0dd7e254270ecd07a3db7d
 def add_page(cat, title, url, views=0):
     p = Page.objects.get_or_create(category=cat, title=title)[0]
     p.url=url
@@ -55,7 +82,19 @@ def add_page(cat, title, url, views=0):
     p.save()
     return p
 
+<<<<<<< HEAD
 # Exercise, add paras: views & likes
+=======
+<<<<<<< HEAD
+# Exercise, add paras: views & likes
+=======
+<<<<<<< HEAD
+# Exercise, add paras: views & likes
+=======
+# Exercise
+>>>>>>> 2ae7d5a75d338512e46e2b14b596682f1f097704
+>>>>>>> d5ce4d19dbaca42306851f15ac469f0ce0346143
+>>>>>>> 5a1af3180eaac20e2f0dd7e254270ecd07a3db7d
 def add_cat(name, views=0, likes=0):
     c = Category.objects.get_or_create(name=name)[0]
     c.views = views

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<<<<<<< HEAD
 {% load staticfiles %}
 
 {% block title_block %}
@@ -26,3 +27,33 @@
         </form>
     </div>
 {% endblock %}
+=======
+<html>
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <h1>Add a Category</h1>
+        <div>
+            <form id="category_form" method="post" action="/rango/add_category/">
+                {% csrf_token %}
+                {% for hidden in form.hidden_fields %}
+                    {{ hidden }}
+                {% endfor %}
+                {% for field in form.visible_fields %}
+                    {{ field.errors }}
+                    {{ field.help_text }}
+                    {{ field }}
+                {% endfor %}
+
+                <input type="submit" name="submit" value="Create Category" />
+
+            </form>
+
+        </div>
+
+    </body>
+    
+</html>
+>>>>>>> 5a1af3180eaac20e2f0dd7e254270ecd07a3db7d
