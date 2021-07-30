@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from typing import Tuple
 from django.db import models
 
@@ -31,3 +32,8 @@ class Page(models.Model):
     views = models.IntegerField(default=0)
 
     
+=======
+from django.db import models
+
+# Create your models here.
+>>>>>>> add260af5eb7ac4706136378fe8eb6f3c6029adb
