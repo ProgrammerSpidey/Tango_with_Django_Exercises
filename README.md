@@ -1,6 +1,7 @@
 # Tango_with_Django_Exercises
 ## By Zhejun SHEN
-__[example](./example)__
+I use  SSH [MY_SSH](git@github.com:ProgrammerSpidey/Tango_with_Django_Exercises.git)
+
 __Used Git Command__
 * git init
 - git status
@@ -14,3 +15,5 @@ __Used Git Command__
 - git push -u origin master
 * git pull origin master --allow-unrelated-histories
 - git push origin master
+
+  [GO TO TOP](#readme)
