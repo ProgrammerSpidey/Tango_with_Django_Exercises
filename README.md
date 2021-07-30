@@ -1,6 +1,6 @@
 # Tango_with_Django_Exercises
 ## By Zhejun SHEN
-I use  SSH [MY_SSH](git@github.com:ProgrammerSpidey/Tango_with_Django_Exercises.git)
+I use  SSH *git@github.com:ProgrammerSpidey/Tango_with_Django_Exercises.git*.
 
 __Used Git Command__
 * git init
